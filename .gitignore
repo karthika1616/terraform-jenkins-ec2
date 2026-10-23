@@ -1,0 +1,21 @@
+
+# Terraform working files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+.terraform.lock.hcl.backup
+
+# Private keys and credentials
+*.pem
+*.key
+terraform.tfvars
+*.tfvars
+!terraform.tfvars.example
+jenkins_password.txt
+.env
+
+# Other local files
+.vscode/
+*.log
